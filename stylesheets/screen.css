@@ -8,6 +8,24 @@ body {overflow:auto; height:7600px; }
 .centeredl { top:0; bottom:0; left:0; right:0; margin:auto; }
 .centeredr { top:0; bottom:0; left:0; right:0; margin:auto; }
 .centeredlog { left:2%; right:0; margin:auto; }
+#menu {
+ width:100%;
+ height:30px;
+ z-index:14;
+ font-family:'Michroma';
+ color:tan;
+ font-size:1.4em;
+  
+}
+#studio {
+margin-left: 33%;
+}
+#folio {
+margin-left: 48%;
+}
+#contact {
+margin-left:66%;
+}
 #logos {font-family: 'Michroma', sans-serif; z-index:12; font-size: 4em; color: white; z-index:13}
 #earth {background: #40362E; z-index:12}
 
