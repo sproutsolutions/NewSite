@@ -42,12 +42,12 @@ background: url('../images/trees.png') bottom center no-repeat;
 z-index:9;
 margin-left: -85%;
 }
-#sky {background: #354343 url('../images/stars.png') center center no-repeat; z-index:6}
+#stars {background: url('../images/stars.png') center center no-repeat; z-index:6}
 #moon {
   background: url('../images/moon.png') bottom center no-repeat ;
   z-index:7;
 }
-#wish2 {background: #94c3b6 url('../images/merry2.jpg') center bottom no-repeat ; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
+#wish2 {background: #354343; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
 #snow {width:363px; background:url('../images/snow.png') no-repeat}
 #pattern1 { background:url('../images/snow-flakes.png') ; z-index:2; background-attachment:fixed}
 .ribbon {background:#49675f; height:40px; top:50%; margin-top:-20px; z-index:3;   }
