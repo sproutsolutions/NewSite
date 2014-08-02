@@ -1,0 +1,42 @@
+html, body {padding:0;margin:0; font-family:Georgia, serif; color:#4a443d; text-align:center;}
+a {color:#4a443d; text-decoration:none}
+body {overflow:auto; height:7600px; }
+#skrollr-body {width:100%; height:100%; position:fixed; }
+#skrollr-body  div {overflow:hidden; position:absolute; }
+.centered { top:0; bottom:0; left:0; right:0; margin:auto; }
+.centeredb { bottom:0; left:0; right:0; margin:auto; }
+.centeredl { top:0; bottom:0; left:0; right:0; margin:auto; }
+.centeredr { top:0; bottom:0; left:0; right:0; margin:auto; }
+.centeredlog { left:2%; right:0; margin:auto; }
+#logos {font-family: 'Michroma', sans-serif; z-index:12; font-size: 4em; color: white; z-index:13}
+#earth {background: #40362E; z-index:12}
+
+#palm {
+background: url('../images/palm.png') bottom center no-repeat; 
+z-index:8;
+margin-left: 55%;
+}
+
+#grass {background: url('../images/grass.png') bottom center no-repeat; z-index:11}
+#grass2 {background: url('../images/grass2.png') bottom center no-repeat; z-index:10}
+#trees {
+background: url('../images/trees.png') bottom center no-repeat;
+z-index:9;
+margin-left: -85%;
+}
+#sky {background: #354343 url('../images/stars.png') center center no-repeat; z-index:6}
+#moon {
+  background: url('../images/moon.png') bottom center no-repeat ;
+  z-index:7;
+}
+#wish2 {background: #94c3b6 url('../images/merry2.jpg') center bottom no-repeat ; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
+#snow {width:363px; background:url('../images/snow.png') no-repeat}
+#pattern1 { background:url('../images/snow-flakes.png') ; z-index:2; background-attachment:fixed}
+.ribbon {background:#49675f; height:40px; top:50%; margin-top:-20px; z-index:3;   }
+#ribbon-left {left:0}
+#ribbon-right {right:0}
+svg {position:absolute; z-index:5; left:50%;  top:50%; margin-left:-170px; margin-top:-180px}
+#pattern2 { background:url('../images/pattern.png'); z-index:1;}
+#wish3 {background:#8dbaae url('../images/merry3.png') no-repeat center center; z-index:6; border-radius:50%;}
+#info {background:#fff; width:20%; height:50px; bottom:auto; z-index:10; font-size:22px;  line-height:50px;}
+#copyright {font-size:12px;  z-index:10;bottom:10px; width:100%;}
