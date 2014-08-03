@@ -47,13 +47,22 @@ margin-left: -85%;
   background: url('../images/moon.png') bottom center no-repeat ;
   z-index:7;
 }
+#design {
+z-index:14;
+}
+.circ {
+  z-index:14;
+}
+.pen{
+  z-index:15;
+}
+
 #wish2 {background: #354343; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
 #snow {width:363px; background:url('../images/snow.png') no-repeat}
 #pattern1 { background:url('../images/snow-flakes.png') ; z-index:2; background-attachment:fixed}
 .ribbon {background:#49675f; height:40px; top:50%; margin-top:-20px; z-index:3;   }
 #ribbon-left {left:0}
 #ribbon-right {right:0}
-svg {position:absolute; z-index:5; left:50%;  top:50%; margin-left:-170px; margin-top:-180px}
 #pattern2 { background:url('../images/pattern.png'); z-index:1;}
 #wish3 {background:#8dbaae url('../images/merry3.png') no-repeat center center; z-index:6; border-radius:50%;}
 #info {background:#fff; width:20%; height:50px; bottom:auto; z-index:10; font-size:22px;  line-height:50px;}
