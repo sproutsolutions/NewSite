@@ -25,14 +25,14 @@
 		might not acutally be the link but a child.
 	*/
 	var findParentLink = function(element) {
+		//Yay, it's a link!
+		if(element.tagName === 'A') {
+			return element;
+		}
+
 		//We reached the top, no link found.
 		if(element === document) {
 			return false;
-		}
-
-		//Yay, it's a link!
-		if(element.tagName.toUpperCase() === 'A') {
-			return element;
 		}
 
 		//Maybe the parent is a link.
@@ -182,12 +182,6 @@
 		}
 
 		jumpStraightToHash();
-	};
-
-	//Expose the handleLink function to be able to programmatically trigger clicks.
-	skrollr.menu.click = function(link) {
-		//We're not assigning it directly to `click` because of the second ("private") parameter.
-		handleLink(link);
 	};
 
 	//Private reference to the initialized skrollr.
