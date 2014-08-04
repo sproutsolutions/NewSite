@@ -33,21 +33,23 @@
 		<div id="preloader"></div>
 		<div id="logos" class="centeredlog" data-0="top:10%;-webkit-transform: translate(0%,0%) scale(1);" data-1000="top:18%;" data-3000="-webkit-transform: translate(-38%,-164%) scale(.5)">
 		Sprout Solutions</div>
-		<div id ="menu" data-0="top:90%;" data-3000="top:3%;">
-		      <div id="studio">Studio</div>
+		<div id ="holder" data-0="top:90%;" data-3000="top:3%;">
+		      <a href="#section-design" data-menu-top="25p">Design</a>
 		      <div id="folio">Our Work</div>
 		      <div id="contact">Contact</div>
 		</div>
-		<div id="earth" class="centeredb" data-0="height:0%;" data-3000="height:90%;"></div>
-		<div id="trees" class="centeredl" data-0="margin-bottom:8%;" data-3000="margin-bottom:50%;"></div>
-		<div id="palm" class="centeredr" data-0="margin-bottom:-35%;" data-3000="margin-bottom:30%;"></div>
-		<div id="grass" class="centered" data-0="margin-bottom:0%;" data-3000="margin-bottom:50%;"></div>
-		<div id="grass2" class="centered" data-0="margin-bottom:4%;" data-3000="margin-bottom:40%;"></div>
-		<div id="stars" class="centered" data-0= "-webkit-transform:rotate(0deg) ;" data-3000="-webkit-transform:rotate(30deg);"></div>
-		<div id="moon" class="centered" data-0="margin-bottom:0%;" data-1000="margin-bottom:-13%;"></div>
+		<div id="fp">
+		  <div id="earth" class="centeredb" data-0="height:0%;" data-3000="height:90%;"></div>
+		  <div id="trees" class="centeredl" data-0="margin-bottom:8%;" data-3000="margin-bottom:50%;"></div>
+		  <div id="palm" class="centeredr" data-0="margin-bottom:-35%;" data-3000="margin-bottom:30%;"></div>
+		  <div id="grass" class="centered" data-0="margin-bottom:0%;" data-3000="margin-bottom:50%;"></div>
+		  <div id="grass2" class="centered" data-0="margin-bottom:4%;" data-3000="margin-bottom:40%;"></div>
+		  <div id="stars" class="centered" data-0= "-webkit-transform:rotate(0deg) ;" data-3000="-webkit-transform:rotate(30deg);"></div>
+		  <div id="moon" class="centered" data-0="margin-bottom:0%;" data-1000="margin-bottom:-13%;"></div>
+		</div>
 		<div id="design"> 
 		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="600" height="600" >
-			<path class="pen" style="fill:none;stroke:#fffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1" data-2500="stroke-dasharray:1933;stroke-dashoffset:1933;" data-4000="stroke-dasharray:1933;stroke-dashoffset:517;" d="M445.36,288.993c1.192-2.724,0.065-5.903-2.572-7.271l-38.329-19.85
+			<path class="pen" style="fill:none;stroke:wheat;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1" data-2500="stroke-dasharray:1933;stroke-dashoffset:1933;" data-4000="stroke-dasharray:1933;stroke-dashoffset:517;" d="M445.36,288.993c1.192-2.724,0.065-5.903-2.572-7.271l-38.329-19.85
 			c1.288-1.678,1.596-3.924,0.654-5.862l-3.364-6.917c-0.099-0.205-0.242-0.377-0.366-0.567c-0.053-0.083-0.102-0.169-0.16-0.249
 			c-0.132-0.191-0.289-0.369-0.445-0.545c-0.069-0.076-0.119-0.164-0.193-0.237l-5.852-5.856l-14.748-17.287
 			c0.111-0.445,0.188-0.897,0.188-1.363c0-1.497-0.595-2.931-1.652-3.989l-1.996-1.995l80.787-80.792
@@ -155,14 +157,20 @@
 	</div>
 
 <script src="javascripts/skrollr.js" type="text/javascript" charset="utf-8"></script>
+<script src="javascripts/skrollr.menu.js" type="text/javascript" charset="utf-8"></script>
+
 <script type="text/javascript">
 	 window.onload = function() {
 		document.getElementById("preloader").style.display = 'none';
-		skrollr.init({
+		var s = skrollr.init({
 		forceHeight: false
 	});
-	}
+	
+	  skrollr.menu.init(s);
+	  }
 	</script>
+
+
 </body>
 
 </html>

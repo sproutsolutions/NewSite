@@ -8,14 +8,20 @@ body {overflow:auto; height:7600px; }
 .centeredl { top:0; bottom:0; left:0; right:0; margin:auto; }
 .centeredr { top:0; bottom:0; left:0; right:0; margin:auto; }
 .centeredlog { left:2%; right:0; margin:auto; }
-#menu {
+#holder {
  width:100%;
  height:30px;
  z-index:14;
  font-family:'Michroma';
  color:tan;
  font-size:1.4em;
-  
+}
+#fp{
+top:0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
 }
 #studio {
 margin-left: 33%;
@@ -49,6 +55,8 @@ margin-left: -85%;
 }
 #design {
 z-index:14;
+width:50%;
+height:50%;
 }
 .circ {
   z-index:14;
