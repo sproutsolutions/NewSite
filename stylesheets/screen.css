@@ -8,19 +8,10 @@ body {overflow:auto; height:7600px; }
 .centeredl { top:0; bottom:0; left:0; right:0; margin:auto; }
 .centeredr { top:0; bottom:0; left:0; right:0; margin:auto; }
 .centeredlog { left:2%; right:0; margin:auto; }
-.headings {
-  top:0; 
-  bottom:0; 
-  left:0; 
-  right:0; 
-  margin:auto; 
-  font-family: 'Oswald', sans-serif;
-  z-index:14;
-} 
 #holder {
  width:100%;
  height:30px;
- z-index:15;
+ z-index:14;
  font-family:'Michroma';
  color:tan;
  font-size:1.4em;
@@ -62,7 +53,7 @@ margin-left: -85%;
   background: url('../images/moon.png') bottom center no-repeat ;
   z-index:7;
 }
-#us {
+#design {
 z-index:14;
 width:50%;
 height:50%;
@@ -72,10 +63,6 @@ height:50%;
 }
 .pen{
   z-index:15;
-}
-
-div#holder a {
-padding: 7%;
 }
 
 #wish2 {background: #354343; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
