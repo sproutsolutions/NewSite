@@ -25,6 +25,18 @@ body {overflow:auto; height:7600px; }
  color:tan;
  font-size:1.4em;
 }
+#weare{
+font-family: 'Nixie One', cursive;
+left:0;
+right:0;
+}
+#us{
+width:100%
+}
+#sky{
+background: #354343;
+}
+
 #fp{
 top:0;
 bottom:0;
@@ -63,9 +75,11 @@ margin-left: -85%;
   z-index:7;
 }
 #us {
-z-index:14;
-width:50%;
-height:50%;
+height:100%;
+width:100%;
+z-index:15;
+color:#CED6B4;
+font-size:6.5em;
 }
 .circ {
   z-index:14;
@@ -75,7 +89,7 @@ height:50%;
 }
 
 div#holder a {
-padding: 7%;
+padding: 3%;
 }
 
 #wish2 {background: #354343; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
