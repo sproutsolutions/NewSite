@@ -1,6 +1,6 @@
 html, body {padding:0;margin:0; font-family:Georgia, serif; color:#4a443d; text-align:center;}
 a {color:#4a443d; text-decoration:none}
-body {overflow:auto; height:7600px; }
+body {overflow:auto; height:9600px; }
 #skrollr-body {width:100%; height:100%; position:fixed; }
 #skrollr-body  div {overflow:hidden; position:absolute; }
 .centered { top:0; bottom:0; left:0; right:0; margin:auto; }
@@ -8,15 +8,7 @@ body {overflow:auto; height:7600px; }
 .centeredl { top:0; bottom:0; left:0; right:0; margin:auto; }
 .centeredr { top:0; bottom:0; left:0; right:0; margin:auto; }
 .centeredlog { left:2%; right:0; margin:auto; }
-.headings {
-  top:0; 
-  bottom:0; 
-  left:0; 
-  right:0; 
-  margin:auto; 
-  font-family: 'Oswald', sans-serif;
-  z-index:14;
-} 
+
 #holder {
  width:100%;
  height:30px;
@@ -26,7 +18,6 @@ body {overflow:auto; height:7600px; }
  font-size:1.4em;
 }
 #weare{
-font-family: 'Nixie One', cursive;
 left:0;
 right:0;
 }
@@ -53,8 +44,8 @@ margin-left: 48%;
 #contact {
 margin-left:66%;
 }
-#logos {font-family: 'Michroma', sans-serif; z-index:12; font-size: 4em; color: white; z-index:13}
-#earth {background: #40362E; z-index:12}
+#logos {font-family: 'Michroma', sans-serif; z-index:12; font-size: 4em; color: white; z-index:14}
+#earth {background: #40362E; z-index:11}
 
 #palm {
 background: url('../images/palm.png') bottom center no-repeat; 
@@ -62,7 +53,7 @@ z-index:8;
 margin-left: 55%;
 }
 
-#grass {background: url('../images/grass.png') bottom center no-repeat; z-index:11}
+#grass {background: url('../images/grass.png') bottom center no-repeat; z-index:13}
 #grass2 {background: url('../images/grass2.png') bottom center no-repeat; z-index:10}
 #trees {
 background: url('../images/trees.png') bottom center no-repeat;
@@ -74,13 +65,31 @@ margin-left: -85%;
   background: url('../images/moon.png') bottom center no-repeat ;
   z-index:7;
 }
-#us {
+.headz {
 height:100%;
 width:100%;
-z-index:15;
+z-index:12;
 color:#CED6B4;
 font-size:6.5em;
+font-family: 'Nixie One', cursive;
 }
+
+#desc{
+z-index:12;
+right:0;
+color:#BF4B31;
+font-family: 'Raleway', sans-serif;
+left: 25%;
+width: 50%;
+font-size:1.3em;
+}
+
+.sep {
+z-index: 12;
+left: 0;
+right: 0;
+}
+
 .circ {
   z-index:14;
 }
