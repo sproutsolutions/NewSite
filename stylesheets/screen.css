@@ -49,6 +49,10 @@ width: 100%;
 height: 100%;
 }
 
+#lightbulb {
+right: 5%;
+}
+
 #fp{
 top:0;
 bottom:0;
