@@ -1,6 +1,6 @@
 html, body {padding:0;margin:0; font-family:Georgia, serif; color:#4a443d; text-align:center;}
 a {color:#4a443d; text-decoration:none}
-body {overflow:auto; height:16000px; }
+body {overflow:auto; height:24000px; }
 #skrollr-body {width:100%; height:100%; position:fixed; }
 #skrollr-body  div {overflow:hidden; position:absolute; }
 .centered { top:0; bottom:0; left:0; right:0; margin:auto; }
@@ -154,6 +154,21 @@ width:auto;
 div#holder a {
 padding: 3%;
 }
+
+#stalag {
+	background-image:url('../images/cavetop.png');
+	z-index:12;
+	width: 100%;
+	height: 100%;
+	}
+	
+#cavernback  {
+height: 100%;
+width: 100%;
+z-index: 11;
+background: rgb(0, 148, 255);
+}
+
 
 #wish2 {background: #354343; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
 #snow {width:363px; background:url('../images/snow.png') no-repeat}
