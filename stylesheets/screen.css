@@ -97,7 +97,7 @@ margin-left: 48%;
 margin-left:66%;
 }
 #logos {font-family: 'Michroma', sans-serif; z-index:12; font-size: 4em; color: white; z-index:14}
-#earth {background: #40362E; z-index:11}
+#earth {background: #1d181f; z-index:11}
 
 #palm {
 background: url('../images/palm.png') bottom center no-repeat; 
@@ -156,18 +156,34 @@ padding: 3%;
 }
 
 #stalag {
-	background-image:url('../images/cavetop.png');
+	background-image:url('../images/cavetopsmoosh.png');
+	background-repeat:no-repeat;
 	z-index:12;
 	width: 100%;
 	height: 100%;
+	background-position-x: center;
 	}
 	
 #cavernback  {
 height: 100%;
 width: 100%;
 z-index: 11;
-background: rgb(0, 148, 255);
+background: #40362e;
 }
+
+#cavebot {
+	background-image:url('../images/cavebottom.png');
+	z-index:12;
+	width:100%;
+	height:150%;
+	}
+#river {
+background-color:#a3d9b0;
+z-index:11;
+width:100%;
+height:35%;
+}
+
 
 
 #wish2 {background: #354343; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
