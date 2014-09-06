@@ -175,7 +175,7 @@ background: #40362e;
 	background-image:url('../images/cavebottom.png');
 	z-index:12;
 	width:100%;
-	height:150%;
+	height:1453px;
 	}
 	
 
@@ -186,6 +186,11 @@ background: #40362e;
 	height:400px;
 }
 
+#rock {
+	background-image:url('../images/riverrock.png');
+	z-index:12;
+	width:100%;
+}
 
 
 #wish2 {background: #354343; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
