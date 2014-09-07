@@ -190,7 +190,29 @@ background: #40362e;
 	background-image:url('../images/riverrock.png');
 	z-index:12;
 	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-position-x: 88%;
+      }
+      
+#splash {
+
+      background-image:url('../images/splashwaterfalls.png');
+      z-index:13;
+      width:100%;
+      background-repeat: no-repeat;
+      height:2355px;
 }
+
+#blackrock {
+	background: #1d181f; 
+	z-index:11;
+	width:100%;
+	height:100%;
+}
+
+
+      
 
 
 #wish2 {background: #354343; z-index:4; box-shadow: 0 0 0 20px #49675f;  }
