@@ -42,6 +42,20 @@ font-size: 2.5em;
 color: #CED6B4;
 }
 
+#smoothlaunch {
+left: 15%;
+font-family: 'Geostar', cursive;
+font-size: 2.5em;
+color: #CED6B4;
+}
+
+#support {
+right: 15%;
+font-family: 'Geostar', cursive;
+font-size: 2.5em;
+color: #CED6B4;
+}
+
 #desdesc {
 font-family: 'Raleway', sans-serif;
 color:#BF4B31;
@@ -58,6 +72,22 @@ width: 40%;
 font-size: 1.3em;
 }
 
+#launchdesc {
+font-family: 'Raleway', sans-serif;
+color:#BF4B31;
+right: 10%;
+width: 40%;
+font-size: 1.3em;
+}
+
+#supportdesc {
+font-family: 'Raleway', sans-serif;
+color:#BF4B31;
+left: 10%;
+width: 40%;
+font-size: 1.3em;
+}
+
 
 #offera{ 
 z-index:12;
@@ -67,6 +97,18 @@ height: 100%;
 
 
 #offerb{ 
+z-index:12;
+width: 100%;
+height: 100%;
+}
+
+#offerc{ 
+z-index:12;
+width: 100%;
+height: 100%;
+}
+
+#offerd{ 
 z-index:12;
 width: 100%;
 height: 100%;
