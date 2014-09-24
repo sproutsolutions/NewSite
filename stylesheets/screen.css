@@ -114,11 +114,11 @@ width: 100%;
 height: 100%;
 }
 
-.leftico {
+.left {
 left: 16%;
 }
 
-.rightico {
+.right {
 right:16%;
 }
 
@@ -193,6 +193,8 @@ width: 50%;
 font-size:1.3em;
 }
 
+
+
 .sep {
 z-index: 12;
 left: 0;
@@ -210,6 +212,25 @@ width:auto;
 
 div#holder a {
 padding: 3%;
+}
+
+#hdisplay {
+	width:100%;
+	height:100%;
+	z-index:12;
+	background-repeat: no-repeat;
+	}
+	
+#siteatext{
+	z-index:12;
+	font-family:'Nixie One', cursive;
+	}
+
+	
+img.sitea {
+display: block;
+padding-left: 24px;
+padding-top: 20px;
 }
 
 #stalag {
