@@ -215,8 +215,9 @@ padding: 3%;
 }
 
 #hdisplay {
-	width:100%;
+	width:50%;
 	height:100%;
+	direction:rtl;
 	z-index:12;
 	background-repeat: no-repeat;
 	}
@@ -224,12 +225,32 @@ padding: 3%;
 #siteatext{
 	z-index:12;
 	font-family:'Nixie One', cursive;
+	width:50%;
+	height:100%;
+	left:50%;
 	}
+	
+.workdesc {
+  color: #D07600;
+  font-family:'Nixie One', cursive;
+  font-size:2em;
+}
+  
+	
+.worktitle {
+color: #D07600;
+font-size: 3em;
+font-family: 'Geostar';
+}
+
+p.workdesc {
+padding-top: 70px;
+}
 
 	
 img.sitea {
 display: block;
-padding-left: 24px;
+padding-right: 24px;
 padding-top: 20px;
 }
 
@@ -299,6 +320,17 @@ background-image:url('../images/waterbottom.png');
 
 
 
+.svg-container {
+margin-top:-50px;
+z-index: 12;
+width: 100%;
+display: inline-block;
+position: relative;
+padding-bottom: 100%;
+overflow: hidden;
+vertical-align: middle;
+left:0%;
+}
       
 
 
