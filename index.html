@@ -650,6 +650,34 @@
 	    </div>
 	   <p class ="workdesc">Jason is a tremendous musical talent and a terrific human</p>
 	   </div>
+	   <body class="ami">
+	    <div class="wrapper">
+	    <section class="display">
+	    <div class="mobile">
+	    <div class="trim">
+	    <iframe id="mobile" src="http://whitecreeklumber.com/">
+	    </iframe>
+	    </div>
+	    </div>
+
+	    <div class="tablet">
+	    <div class="trim">
+	      <iframe id="tablet" src="http://whitecreeklumber.com/">
+	    </iframe>
+	    </div>
+	    </div>
+	    <div class="laptop">
+	    <div class="trim">
+	    <iframe id="laptop" src="http://whitecreeklumber.com/">
+	    </iframe>
+	    </div>
+	    </div>
+	    <div class="desktop">
+	    <div class="trim">
+	    <iframe id="desktop" src="http://whitecreeklumber.com/">
+	    </iframe>
+	    </div>
+	    </div>
 		
 	   <div id ="cavebot" data-0="visibility:hidden;" data-15000="bottom:-150%;visibility:visible;" data-16000="bottom:-100%;" data-19000="bottom:100%;"></div>
 	   <div id ="river" data-0="visibility:hidden;" data-16000="bottom:-100%;visibility:visible;" data-19000="bottom:100%;"></div>
@@ -661,6 +689,53 @@
 
 <script src="javascripts/skrollr.min.js" type="text/javascript"></script>
 <script src="javascripts/skrollr.menu.js" type="text/javascript"></script>
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+  <script>
+$(document).ready(function() {
+// Change iFrame on a Button Click Event
+    $(".button").click(function(event){
+        $("iframe").attr('src', $( '#url' ).val());
+    });
+});
+  </script>
+  <script>
+$(document).ready(function() {
+    var a = 3;
+    $('.desktop,.laptop,.tablet,.mobile').draggable({
+   start: function(event, ui) { $(this).css("z-index", a++); }
+});
+    $('.display div').click(function() {
+        $(this).addClass('top').removeClass('bottom');
+        $(this).siblings().removeClass('top').addClass('bottom');
+        $(this).css("z-index", a++);
+
+    });
+});
+</script>
+
+<script>
+
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+var first = getUrlVars()["url"];
+var first = decodeURIComponent(first);
+var first = first.replace(/\#$/, '');
+
+if(first === "undefined") {
+  // don't do anything.
+}
+else {
+//  take the url variable and update the iframes and input field
+  $("iframe").attr('src',(first));
+  $('#url').attr('value',(first));
+}
+</script>
 
 <script type="text/javascript">
 	 window.onload = function() {
