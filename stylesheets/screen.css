@@ -42,6 +42,12 @@ font-size: 2.5em;
 color: #CED6B4;
 }
 
+#sitebdisp {
+z-index: 12;
+width: 100%;
+height: 100%;
+}
+
 #smoothlaunch {
 left: 15%;
 font-family: 'Geostar', cursive;
@@ -304,6 +310,18 @@ height:100%;
 	background-position-x: 88%;
       }
       
+.wrapperright {
+z-index: 12;
+width: 100%;
+height: 100%;
+margin-left: 45%;
+}
+	  
+	  
+#sitebtext{
+z-index:11;
+}
+	  
 #splash {
 
       background-image:url('../images/splashwaterfalls.png');
